@@ -3,36 +3,12 @@
 	background-repeat: no-repeat;
 }
 
-.map{
-	padding: 1px;
-}
-
-.map__image g.image{
-	fill: blue;
-	stroke: yellow;
-	stroke-width: 5px;
-}
-
-.map__image g.image:hover{
-	fill: blue;
-	stroke: yellow;
-	stroke-width: 5px;
-}
-
-.map__image{
-	width: 50%;
-	float: left;
-}
-
-.map__image ellipse{
-	fill: green;
-	stroke: blue;
+map__image path{
+	stroke: #FFF;
 	stroke-width: 2px;
-	transition: fill 0.3s;
 }
 
-.map__image ellipse:hover{
-	fill: blue;
+map__image path:hover{
 	stroke: yellow;
-	stroke-width: 5px;
+	stroke-width: 2px;
 }
