@@ -14,7 +14,7 @@ map__image path:hover{
 }
 
 map__image ellipse{
-	stroke: #FFF;
+	stroke: red;
 	stroke-width: 2px;
 }
 
