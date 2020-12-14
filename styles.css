@@ -12,3 +12,13 @@ map__image path:hover{
 	stroke: yellow;
 	stroke-width: 2px;
 }
+
+map__image circle{
+	stroke: #FFF;
+	stroke-width: 2px;
+}
+
+map__image circle:hover{
+	stroke: yellow;
+	stroke-width: 2px;
+}
