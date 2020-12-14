@@ -13,12 +13,12 @@ map__image path:hover{
 	stroke-width: 2px;
 }
 
-map__image circle{
+map__image ellipse{
 	stroke: #FFF;
 	stroke-width: 2px;
 }
 
-map__image circle:hover{
+map__image ellipse:hover{
 	stroke: yellow;
 	stroke-width: 2px;
 }
