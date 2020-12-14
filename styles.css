@@ -1,3 +1,12 @@
+*{
+	background: url(background.png);
+	background-repeat: no-repeat;
+}
+
+.map{
+	padding: 1px;
+}
+
 .map__image g.image{
 	fill: blue;
 	stroke: yellow;
