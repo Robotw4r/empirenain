@@ -3,22 +3,20 @@
 	background-repeat: no-repeat;
 }
 
-map__image path{
-	stroke: #FFF;
-	stroke-width: 2px;
-}
+#map {
+    
+  }
 
-map__image path:hover{
-	stroke: yellow;
-	stroke-width: 2px;
-}
+#map path {
+    transition: fill 0.2s, stroke 0.3s;
+  }
+  
+#map path:hover {
+    fill: red;
+    stroke: red;
+  }
 
-map__image ellipse{
-	stroke: red;
-	stroke-width: 2px;
-}
-
-map__image ellipse:hover{
-	stroke: yellow;
-	stroke-width: 2px;
-}
+#map path:active {
+    fill: $bada55;
+    stroke: $bada55;
+  }
