@@ -6,8 +6,13 @@ nav ul li{
 	background-color: red;
 }
 
-#map {
-    	background: url(background.png);
+.nord {
+    background: url(background-nord.png);
+	background-repeat: no-repeat;
+  }
+  
+.mtsblc {
+    background: url(background-mtsblc.png);
 	background-repeat: no-repeat;
   }
 
@@ -18,9 +23,9 @@ nav ul li{
 #map path:hover {
     fill: red;
     stroke: yellow;
-  }
+}
 
 #map path:active {
     fill: red;
     stroke: yellow;
-  }
+}
