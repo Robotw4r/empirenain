@@ -48,6 +48,22 @@ nav ul li a:hover{
     stroke: yellow;
 }
 
-.arbre{
+.content{
   padding-top: 20px;
+}
+
+.info{
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #E0B503;
+  background-color: #495B8A;
+}
+
+.info p{
+  color: #E0B503;
+}
+
+.info a {
+  text-decoration: none;
+  color: black;
 }
