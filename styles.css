@@ -1,3 +1,8 @@
+@font-face{
+font-family: "Runes";
+src: url("Acadian_Runes-Regular_PERSONAL_USE.ttf");
+}
+
 *{
     margin: 0px;
 }
@@ -16,6 +21,7 @@ div{
 }
 
 h1{
+    font-family: "Runes";
     color: yellow;
     width: 10em;
 }
